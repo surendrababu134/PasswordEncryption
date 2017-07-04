@@ -1,0 +1,17 @@
+{
+  "name": "passwordencryption",
+  "version": "1.0.0",
+  "description": "password encryption",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "surendra",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
