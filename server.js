@@ -12,7 +12,7 @@ for(var i=0; i < 12; i++) {
 
 var ciphertext = CryptoJS.AES.encrypt('PasswordEncryption123$', text);
 
-var bytes = CryptoJS.AES.decrypt('U2FsdGVkX19eZ1qXyNf9U3SztP4tOvMIZ5qBWe9ArHA=', 'zYg8cysvGhNJ');
+var bytes = CryptoJS.AES.decrypt(ciphertext.toString(), text);
 var plaintext = bytes.toString(CryptoJS.enc.Utf8);
 
 console.log('Encrypted Password:'+ciphertext);
